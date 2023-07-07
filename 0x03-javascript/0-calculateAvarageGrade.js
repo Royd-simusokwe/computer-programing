@@ -9,4 +9,3 @@ function calculateAvarageGrade(grades) {
     return sum / grades.length
 }
 console.log(calculateAvarageGrade(grades));
-c

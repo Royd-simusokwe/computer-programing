@@ -1,0 +1,55 @@
+/* Include the padding and border in an element's total width and height */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*to maintain a space after the headding */
+
+.container {
+    margin-top: 50px;
+}
+
+
+/* Style the header */
+
+.header {
+    background-color: black;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Clear floats after the header */
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tasks {
+    margin-top: 30px;
+}
+
+
+/* Style the "Add" button */
+
+.btnn {
+    padding: 10px;
+    width: 100%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 1px;
+}
+
+.btnn:hover {
+    background-color: #9b6868;
+}
